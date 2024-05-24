@@ -2,4 +2,7 @@ bricks:
   provider_mvvm:
     path:
      bricks/state/provider_mvvm
+  mvp:
+    path:
+      bricks/state/mvp
 
