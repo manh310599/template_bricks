@@ -1,3 +1,4 @@
+```
 -> mason make mvp
 use mvp template 
 -> mason make provider_mvvm
@@ -33,7 +34,7 @@ use mvvm achitecher + provider state manager
 │   └── login.dart
 └── ...
 
-mason make provider
+-> mason make provider
 --feature_name login --state_management provider
 ├── login
 │   ├── provider
@@ -47,8 +48,8 @@ mason make provider
 │   └── login.dart
 └── ...
 
-mason make riverpod
---feature_name login --state_management riverpod
+-> mason make riverpod
+--feature_name login --state_management riverpod /n
 ├── login
 │   ├── provider
 │   │   ├── login_provider.dart
@@ -61,7 +62,7 @@ mason make riverpod
 │   └── login.dart
 └── ...
 
-mason make none
+-> mason make none
 --feature_name login --state_management none
 ├── login
 │   ├── view
@@ -71,15 +72,5 @@ mason make none
 │   │   └── widgets.dart
 │   └── login.dart
 └── ...
-
-
- 
-
-
-
-
-
-
-
-
+```
 
