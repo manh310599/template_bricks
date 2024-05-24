@@ -1,0 +1,5 @@
+bricks:
+  provider_mvvm:
+    path:
+     bricks/state/provider_mvvm
+
