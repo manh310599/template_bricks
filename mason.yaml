@@ -5,4 +5,8 @@ bricks:
   mvp:
     path:
       bricks/state/mvp
+  feature_brick:
+    path: bricks/state/feature_brick
+  feature_core_brick:
+    path: bricks/state/feature_core_brick
 
